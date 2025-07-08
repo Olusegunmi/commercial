@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+@import "flowbite/src/themes/default";
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  z-index: 1000 ; 
+}
