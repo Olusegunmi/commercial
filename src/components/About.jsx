@@ -15,8 +15,8 @@ const About = () => {
     <Animation delay={0.4} >
     <div className='px-4 md:px-16 mx-auto max-w-screen-2xl my-8 md:mt-32'>
       <div className='w-11/12 mx-auto flex flex-col md:flex-row justify-between items-center gap-12 space-x-52'>
-        <motion.div animate={{opacity: 1 , x: 0,  }} initial={{opacity: 0, x:-30}} transition={{duration:1 , delay:1 }}>
-          <img src={vector8} className='w-[100%] h-[200px] md:w-[100%] md:h-[400px]' alt="" />
+        <motion.div animate={{opacity: 1 , x: 0,  }} initial={{opacity: 0, x:-30}} transition={{duration:1 , delay:1 }}  className="mx-auto">
+          <img src={vector8} className='mx-auto w-[100%] h-[130px] md:w-[100%] md:h-[400px]' alt="" />
         </motion.div>
 
         <motion.div className='md:w-[100%] mx-auto' animate={{opacity: 1 , x: 0,  }} initial={{opacity: 0, x:30}} transition={{duration:1 , delay:1 }}>
@@ -24,7 +24,7 @@ const About = () => {
           <p className='md:w-4/6 text-sm text-neutralDGrey mb-8 '>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Qui voluptatibus a quis nisi, labore placeat fugiat odit corrupti cum vel perferendis tempora facilis porro excepturi natus neque voluptas ex 
             Qui facilis eius explicabo odio voluptate nam, cum velit dolores, incidunt quidem dolorum!</p>
-          <button className='rounded hover:translate-y-4 cursor-pointer duration-200 transition-all  bg-brandprimary md:w-[15%] text-[15px] py-1 px-1'>Learn</button>
+          <button className='rounded hover:translate-y-4  ml-[120px] md:ml-[5px] cursor-pointer duration-200 transition-all  bg-brandprimary md:w-[15%] text-[15px] py-1 px-3'>Learn</button>
         </motion.div>
       </div>
     </div>

@@ -9,9 +9,9 @@ import Animation from './Animation';
 import {motion } from "framer-motion"
 const Service = () => {
   const services = [
-      {id:1, title: "Membership Organisation",description:"Our membership management software provides full automation of membership renewals and payments", image:"src/image/linked.png"},
-      {id:2, title: "National association",description:"Our membership management software provides full automation of membership renewals and payments", image:"src/image/Nike.png"},
-      {id:3, title: "Clubs and Groups",description:"Our membership management software provides full automation of membership renewals and payments", image:"src/image/facebook.png"},
+      {id:1, title: "Membership Organisation",description:"Our membership management software provides full automation of membership renewals and payments", image:"https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/blog_service/2019-10-21-make-my-own-website.jpg"},
+      {id:2, title: "National association",description:"Our membership management software provides full automation of membership renewals and payments", image:"https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/blog_service/2019-10-21-make-my-own-website.jpg"},
+      {id:3, title: "Clubs and Groups",description:"Our membership management software provides full automation of membership renewals and payments", image:"https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/blog_service/2019-10-21-make-my-own-website.jpg"},
   ]
   return (
     <div className='md:px-14 px-4 mx-auto max-w-screen-2xl' id="service">

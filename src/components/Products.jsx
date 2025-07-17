@@ -10,17 +10,17 @@ const Products = () => {
       <Animation delay={0.6} >
       <div className='px-4 md:px-16 mx-auto max-w-screen-2xl my-8 md:mt-32' id="product">
         
-        <div className='w-11/12 mx-auto flex flex-col md:flex-row justify-between items-center gap-12 space-x-52'>
-          <div>
-            <img src={vector2} className='w-[100%] h-[200px] md:w-[100%] md:h-[400px]' alt="" />
+        <div className='md:w-11/12 mx-auto flex flex-col md:flex-row justify-between items-center gap-12 space-x-52'>
+          <div className='mx-auto'>
+            <img src={vector2} className='w-[150px]  mx-auto h-[130px] md:w-[100%] md:h-[400px]' alt="" />
           </div>
         
           <div className='md:w-[100%] mx-auto'>
             <h2 className='text-neutralDGrey text-xl font-extrabold hover:text-brandprimary md:text-4xl md:w-[100%] mb-4 lg:text-4xl'>We have built amazing products for our clients</h2>
-            <p className='md:w-4/6 text-sm text-neutralDGrey mb-8 '>Lorem ipsum dolor sit amet elit. 
+            <p className=' md:w-4/6 text-sm text-neutralDGrey mb-8 '>Lorem ipsum dolor sit amet elit. 
               Qui voluptatibus a quis nisi, labore placeat fugiat odit corrupti cumneque voluptas ex 
               Qui facilis eius explicabo odio , incidunt quidem dolorum!</p>
-            <button className='rounded hover:translate-y-4 cursor-pointer duration-200 transition-all  bg-brandprimary md:w-[15%] text-[15px] py-1 px-1'>Learn</button>
+            <button className='rounded ml-[140px] justify-center hover:translate-y-4 cursor-pointer duration-200 transition-all  bg-brandprimary md:w-[15%] text-[15px] py-1 px-3'>Learn</button>
           </div>
         </div>
       </div>
@@ -29,7 +29,7 @@ const Products = () => {
       <div className='px-4 md:px-14 justify-between items-center py-16 mx-auto bg-neutralsilver  '>
         <div className='flex md:flex-row flex-col justify-between gap-12 mx-auto items-center '>
           <div className='md:w-1/3'>
-            <img src={vector4} className='w-[50%] h-[200px] md:w-[50%] md:ml-[15px] md:h-[300px]' alt="" />
+            <img src={vector4} className='w-[100%] h-[150px] md:w-[50%] md:ml-[15px] md:h-[300px]' alt="" />
           </div>
               
           <div className='px-4 sm:px-12 md:px-14 md:w-2/3 mx-auto'>
@@ -59,7 +59,7 @@ const Products = () => {
                   </div>
 
                   <div className='mt-[10px] md:py-2 md:mt-[20px]'>
-                    <a href="" className='text-[14px]  md:text-[20px] font-bold text-brandprimary hover:text-neutralDGrey md:mt-[50px]'>Meet our clients</a>
+                    <a href="" className='text-[14px]  md:text-[20px] font-bold text-brandprimary hover:text-neutralDGrey md:mt-[50px]'>Clients</a>
                   </div>
                 </div>
             </div>
